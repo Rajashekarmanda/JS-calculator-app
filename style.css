@@ -1,0 +1,157 @@
+.calculator-app {
+    display: grid;
+    grid-template-areas:    "result-cont result-cont result-cont result-cont"
+                            "c-cont c-cont arrow-cont devide-cont"
+                            "seven-cont eight-cont nine-cont multiply-cont"
+                            "four-cont five-cont six-cont minus-cont"
+                            "one-cont two-cont three-cont plus-cont"
+                            "zero-cont zero-cont zero-cont equal-cont";
+    border: 2px solid black;
+    height: 100vh;
+}
+.result-cont {
+    grid-area: result-cont;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+.c-cont {
+    grid-area: c-cont;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+.arrow-cont {
+    grid-area: arrow-cont;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+.devide-cont {
+    grid-area: devide-cont;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+.seven-cont {
+    grid-area: seven-cont;
+    background-color: lightslategray;
+    border: 2px solid black;
+}
+.eight-cont {
+    grid-area: eight-cont;
+    background-color: lightslategray;
+    border: 2px solid black;
+}
+.nine-cont {
+    grid-area: nine-cont;
+    background-color: lightslategray;
+    border: 2px solid black;
+}
+.six-cont {
+    grid-area: six-cont;
+    background-color: lightslategray;
+    border: 2px solid black;
+}
+.five-cont {
+    grid-area: five-cont;
+    background-color: lightslategray;
+    border: 2px solid black;
+}
+.four-cont {
+    grid-area: four-cont;
+    background-color: lightslategray;
+    border: 2px solid black;
+}
+.three-cont {
+    grid-area: three-cont;
+    background-color: lightslategray;
+    border: 2px solid black;
+}
+.two-cont {
+    grid-area: two-cont;
+    background-color: lightslategray;
+    border: 2px solid black;
+}
+.one-cont {
+    grid-area: one-cont;
+    background-color: lightslategray;
+    border: 2px solid black;
+}
+.multiply-cont {
+    grid-area: multiply-cont;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+.minus-cont {
+    grid-area: minus-cont;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+.plus-cont {
+    grid-area: plus-cont;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+.equal-cont {
+    grid-area: equal-cont;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+.zero-cont {
+    grid-area: zero-cont;
+    border: 2px solid black;
+    background-color: gray;
+}
+.class-for-all-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number-type-button {
+    background-color: white;
+}
+button {
+    height: 160px;
+    width: 450px;
+    font-size: 100px;
+    font-family: "Roboto";
+    font-weight: 800;
+    color: black;
+    background-color: lightgray;
+    cursor: pointer;
+}
+.input {
+    height: 150px;
+    width: 100%;
+    font-size: 100px;
+    font-family: "Roboto";
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    background-color: black;
+
+}
+.c-button {
+    height: 160px;
+    width: 900px;
+    font-size: 100px;
+    font-family: "Roboto";
+    font-weight: 800;
+    color: black;
+    /* background-color: red; */
+}
+.multiply-buttons-common-class {
+    background-color: rgb(240, 186, 157);
+}
+.multiply-buttons-common-class:hover {
+    background-color: white;
+
+}
+.zero-button {
+    height: 160px;
+    width: 1360px;
+    background-color: white;
+}
+.number-button-animation-hover {
+    background-color: lightgray;
+}
+.number-button-animation-hover:hover {
+    background-color: white;
+}
